@@ -225,8 +225,8 @@ ul li{
 
 .lines1{
 
-    padding-top: 65px;
-    padding-left: 35px;
+    /* padding-top: 65px;
+    padding-left: 35px; */
     font-family: 'Aboreto', Arial, sans-serif;
     /* font-size: 15px; */
     line-height: 1.4;
@@ -245,7 +245,7 @@ ul li{
     text-overflow: ellipsis;
     text-align: center;
     font-family: 'Aboreto', Arial, sans-serif;
-    line-height: 1.4px;
+    line-height: 30px;
 }
 
 .font2{
@@ -259,7 +259,7 @@ ul li{
     text-overflow: ellipsis;
     text-align: center;
     font-family: 'Aboreto', Arial, sans-serif;
-    /* line-height: 1.4px; */
+    line-height: 30px;
 }
 
 .font3{
@@ -273,5 +273,11 @@ ul li{
     text-overflow: ellipsis;
     text-align: center;
     font-family: 'Aboreto', Arial, sans-serif;
-    /* line-height: 1.4px; */
+    line-height: 30px;
+}
+
+.scrollmenu{
+
+    overflow: auto;
+    white-space: nowrap;
 }
