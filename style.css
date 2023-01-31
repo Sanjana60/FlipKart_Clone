@@ -62,10 +62,12 @@ ul li{
 
 .logo img{
 
-    width: 88px;
+    /* width: 88px; */
     /* padding: 0 ; */
     /* display: block; */
-    margin-left: 195px;
+    
+    margin-top: 15px;
+    margin-left: 150px;
     /* margin-right: 103px; */
 }
 
@@ -183,4 +185,93 @@ ul li{
     align-items: center;
     justify-content: center;
     /* margin: auto; */
+}
+
+.card3{
+
+    padding-top: 50px;
+    background-color: white;
+    height: 323px;
+    width: 100vw;
+
+    margin: auto;
+    padding-left: 115px;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.card-item1{
+
+    /* height: 304px;
+    width: 104px; */
+    position: relative;
+    margin: 0px 25px;
+    display: inline-flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.cont{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.lines1{
+
+    padding-top: 65px;
+    padding-left: 35px;
+    font-family: 'Aboreto', Arial, sans-serif;
+    /* font-size: 15px; */
+    line-height: 1.4;
+    font-weight: 700;
+    display: flex-inline;
+    list-style: none;
+
+}
+
+
+.font1{
+
+    font-size: 14px;
+    font-weight: 510px;
+    margin-top: 15px;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-family: 'Aboreto', Arial, sans-serif;
+    line-height: 1.4px;
+}
+
+.font2{
+
+    font-size: 16px;
+    font-weight: 400px;
+    margin-top: 15px;
+    overflow: hidden;
+    /* padding-top: 8px; */
+    color: #388e3c;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-family: 'Aboreto', Arial, sans-serif;
+    /* line-height: 1.4px; */
+}
+
+.font3{
+
+    font-size: 14px;
+    font-weight: 400px;
+    margin-top: 15px;
+    overflow: hidden;
+    /* padding-top: 7px; */
+    /* color: #388e3c; */
+    text-overflow: ellipsis;
+    text-align: center;
+    font-family: 'Aboreto', Arial, sans-serif;
+    /* line-height: 1.4px; */
 }
