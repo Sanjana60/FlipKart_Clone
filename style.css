@@ -281,3 +281,15 @@ ul li{
     overflow: auto;
     white-space: nowrap;
 }
+
+
+.container3{
+
+    background-color: #2874f0;
+    height: 135px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    color: #f0f0f0;
+}
