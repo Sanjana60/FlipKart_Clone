@@ -286,10 +286,14 @@ ul li{
 .container3{
 
     background-color: #2874f0;
-    height: 135px;
+    height: 50px;
     display: flex;
     flex-direction:row;
     align-items: center;
     justify-content: center;
     color: #f0f0f0;
 }
+
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
